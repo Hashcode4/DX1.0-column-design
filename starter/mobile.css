@@ -70,17 +70,38 @@
     
     /* ==== Footer section starts here ==== */
     
-        .footer {
+        footer {
             flex-direction: column;
-            padding: 20px 30px;
+            padding: 10px 30px;
             text-align: center;
         }
         .footer-iconcontainer{
             margin: 15px 0;
         }
         
-    /* ==== Footer section ends here ==== */
     
+    
+    /* thirdsection starts here */
+    .thirdsection{
+        flex-direction: column-reverse;
+        background-color: #D9D9D9;
     }
+      
+
+    /* thirdsection ends here */
+    /* thirdsection ends here */
+
+    footer{
+        flex-direction: column;
+    }
+
+    .footer-iconcontainer{
+        margin:10px 0;
+    }
+
+    /* thirdsection ends here */
     
-    /* ==== Mobile version --- Using Media Queries ==== */
+
+
+    
+}

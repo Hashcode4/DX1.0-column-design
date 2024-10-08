@@ -11,6 +11,8 @@
     height: 430px;
     /* border: 3px solid black; */
     display: flex; 
+    max-width: 1500px;
+    margin: auto 0;
     }
 
     body{
@@ -75,13 +77,14 @@ span{
 /* secondsection start here */
 
 .secondsection{
-    height:500px;
+    /* height:500px; */
     /* border:3px solid tomato; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 50px o;
+    padding: 50px 0;
+    /* overflow: hidden; */
 }
 
 .secondsection-leftdiv{
@@ -95,7 +98,8 @@ span{
 }
 
 .secondsection-leftdiv h4{
-    margin-bottom: ;
+    margin-bottom: 20px ;
+    text-align: center;
 }
 .secondsection-leftdiv p{
     margin-bottom: 25px;
@@ -109,3 +113,85 @@ span{
 }
 
 /* secondsection end here */
+/*thirdsection start here */
+
+.thirdsection{
+    /* border: 3px solid tomato; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center ;
+
+    align-items: center;
+    padding: 50px 0;
+}
+
+.thirdsection-leftdiv {
+    /* border: 3px solid black; */
+    height: 460px;
+    width: 340px;
+    background: url("images/image3.jpg");
+    background-size: cover;
+}
+
+.thirdsection-leftdiv img{
+
+}
+
+.thirdsection-rightdiv{
+    /* border:3px solid purple; */
+    height: 460px;
+    width: 340px;
+    background: var(--main-color);
+    padding:  40px 25px;
+}
+
+.thirdsection-rightdiv p{
+    margin-bottom: 25px;
+}
+
+ /*thirdsection end here */
+ /*fooster starts here */
+footer{
+    /* border: 3px solid tomato; */
+    background:var(--main-color);
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    color: var(--white-color);
+}
+
+
+.footericons-container{
+    /* border: 3px solid black; */
+    /* width: 200px; */
+    /* height: 50px; */
+    font-size: 22px;
+}
+
+ 
+.footer-icon {
+    margin: 0 5px;
+    
+}
+
+a{
+    color:var(--white-color)
+}
+
+
+
+ /* fooster end here */
+ /* safety measure starts here */
+ .firstsection,
+ .secondsection,
+ .thirdsection,
+ footer{
+    max-width: 1500px;
+    margin: auto 0;
+ }
+
+
+ /* safety measure end here */
